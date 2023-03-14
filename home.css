@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+.titlebox{
+    width: 1300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titletext a{
+      text-decoration-line: none;
+      padding: 5px;
+}
+
+.head {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.headitem {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 20px;
+    justify-content: center;
+}
+
+.headtext1 {
+    display: flex;
+    justify-content: center;
+}
+
+.headtext1 input#x{
+    width: 50px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 45% 45% 0;
+}
+
+.headtext1 input{
+    width: 350px;
+}
+
+.headtext2 {
+    display: flex;
+    justify-content: center;
+}
+.headtext2 a {
+    font-size: small;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(248, 7, 108);
+    box-sizing: border-box;
+    padding: 5px;
+}
+.headtext2 a:nth-child(n+3){
+    border-left: solid rgb(248,7,108) 1px;
+}
+.bodybox1{
+    flex-wrap: wrap;
+    
+}
+.bodybox1item{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.bodybox1text{
+
+}
+.bodybox1text a{
+    text-decoration-line: none;
+    background-color: rgb(204, 207, 207);
+    color: black;
+    padding: 10px;
+    border-radius: 15% 15% 0 0;
+}
+.bodybox1img2{
+    margin: -10px;
+}
+.bodybox1ul{
+    position: relative;
+}
+.bodybox1ul img{
+    width: auto;
+    margin: -5px;
+}
+.navbox{
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.navbox nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: solid rgb(104, 99, 99) 1px;
+    background-color: rgba(10, 8, 8, 0.687);
+}
+.navbox nav a{
+    text-decoration-line: none;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    margin: 8px;
+    font-size: small;
+}
+.bodybox2{
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.bodybox2item{
+    margin: 15px;
+    background-color: rgb(240, 239, 239);
+}
+.bodybox2text1{
+    width: 200px;
+    display: flex;
+    background-color: rgb(55, 55, 241);
+    color: white;
+    padding: 2px;
+    margin: auto;
+    
+}
+.bodybox2text2{
+    width: 200px;
+    margin: auto;
+    
+}
+.bodybox2text2 p
+{
+    font-size: small;
+    padding: 2px;
+    margin: 5px;
+}
+.bodybox2text2 span
+{
+    color: rgb(247, 95, 121);
+}
+.bodybox2text2 span:nth-child(2n)
+{
+    font-size: large;
+}
+.box2_text{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3item{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.box3img{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.box3card{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8% 8% 8% 8%;
+    background-color: orange;
+    padding: 10px;
+}
+.card{
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 8% 8% 8% 8%;
+}
+.cardtext{
+    padding: 5px;
+    display: flex;
+}
